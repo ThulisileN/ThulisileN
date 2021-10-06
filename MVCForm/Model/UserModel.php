@@ -1,4 +1,5 @@
-function saveUserData
+<?php
+function saveUserData()
 {
     // save the data
     $name= $_POST['name'];
@@ -6,3 +7,4 @@ function saveUserData
         echo ('Your Name is:     '. $name. '<br/>');
         echo ('Your Email is:'   . $email. '<br/>');
 }
+?>
